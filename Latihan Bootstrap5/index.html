@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+    </style>
+  </head>
+  
+<body class=" bg-dark text-light">
+  
+<div class="text-end">
+  <button class="btn btn-outline-light p-0" type="button" data-bs-toggle="collapse" data-bs-target="#bodyRead" aria-expanded="false" aria-controls="collapseTarget">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-down d-inline-block text-center" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"/>
+</svg>
+</button>
+</div>
+ 
+ 
+<div class="collapse" id="bodyRead">
+     <!-- header -->
+    <div class=" container-fluid p-3 bg-dark text-light collapse-horizontal" id="collapseTarget">
+      <h1 class="text-center font-monospace">Belajar Bootstrap</h1>
+      <p class="text-center fst-italic">Lorem ipsum dolor sit amet distinctio nihil culpa, incidunt dolorem earum nobis, minima sunt. Facilis quae hic, fugiat debitis voluptatum eius a, suscipit.</p>
+    </div>
+    <!-- end header -->
+   
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="/images/project3.png" class="border rounded-3 border-danger me-2" style="width:40px;" alt="">
+      Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sevice</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!-- end Navbar -->
+    
+    <!-- breadcump -->
+<nav aria-label="breadcrumb" class="container my-1 d-flex justify-content-start">
+  <ol class="breadcrumb d-inline-flex">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav>
+
+
+<!-- carousel -->
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/images/gambar1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/gambar2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/gambar3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- end carousel -->
+
+<!-- text project -->
+<div class="container text-center font-monospace my-4 p-0">
+  <h1 class="w-10">Welcome To My Project</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. praesentium debitis nostrum officiis rerum vero molestias.</p>
+</div>
+<!-- end text project -->
+    <!-- end breadcump -->
+    <!-- Card -->
+<div class="container-fluid my-3 p-2 d-flex justify-content-around flex-wrap text-center">
+ <div class="card my-2" style="width: 18rem;">
+  <img src="/images/project7.jpg" class="card-img-top" alt="...">
+  <div class="card-body border-1 bg-dark border-top border-dark">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="d-block btn btn-outline-light">Go somewhere</a>
+  </div>
+</div>
+ <div class="card my-2" style="width: 18rem;">
+  <img src="/images/project8.png" class="card-img-top" alt="...">
+  <div class="card-body border-1 bg-dark border-top border-dark">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="d-block btn btn-outline-light">Go somewhere</a>
+  </div>
+</div>
+<div class="card my-2" style="width: 18rem;">
+  <img src="/images/project9.png" class="card-img-top" alt="...">
+  <div class="card-body border-1 bg-dark border-top border-dark">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="d-block btn btn-outline-light">Go somewhere</a>
+  </div>
+</div>
+</div>
+    <!-- End Card -->
+    
+    <!-- Pagimation -->
+<div class="container-fluid text-center">
+ <nav aria-label="Page navigation example">
+  <ul class="pagination d-inline-flex">
+    <li class="page-item ">
+      <a class="page-link bg-dark text-light" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link bg-dark text-light" href="#">1</a></li>
+    <li class="page-item"><a class="bg-dark text-light page-link" href="#">2</a></li>
+    <li class="page-item"><a class="bg-dark text-light page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link bg-dark text-light" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+    <!-- End Pagimation -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
